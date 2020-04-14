@@ -18,13 +18,13 @@ function Graphics(ct) {
     // image related variables
     var backImg = new Image(); // background Image
     backImg.onload = prefetched(); // call prefetched when the image is cached.
-    backImg.src = "images/backside.png";
+    backImg.src = "images/cardbackside.png";
 
     var frontImg = []; // An array of frontside images of the cards
     for (var i = 0; i < 8; i++) {
         frontImg[i] = new Image();
         frontImg[i].onload = prefetched(); // call prefetched when the image is cached.
-        frontImg[i].src = "images/bird" + i + ".png"; // Loading imagefiles bird1.png, bird2.png, ...
+        frontImg[i].src = "images/cardfrontside" + i + ".png"; // Loading imagefiles cardfront1.png, cardfront2.png, ...
     }
 
     // Gradient
@@ -87,7 +87,7 @@ function Graphics(ct) {
      */
     this.draw = function() {
         // Draw background
-        can2d.fillStyle = 'rgba(71, 71, 205, 1)'; // Set colour
+        can2d.fillStyle = 'rgba(20, 20, 87, 1)'; // Set colour
         can2d.fillRect(0, 0, canvas.width, canvas.height); // Draw a box filling the background
 
         // Draw cards
