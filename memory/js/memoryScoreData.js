@@ -1,5 +1,4 @@
 	/**
-	 * lag ref til data.postToServer for denne og memoryCanvasText.js ++ TODO
 	 */	
 function Data(canvasText){
 	/*
