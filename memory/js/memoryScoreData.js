@@ -11,8 +11,7 @@ function Data(canvasText){
 	    $.ajax({
 	        url: "memoryScoreData.php",
 	        type: "POST",
-	        data: { score:turnedCards.toString() },
-	        success: function (response, status) {
+	        data: { score:turnedCards.toString() }, success: function (response, status) {
 	                var parsedResult =  JSON.parse(response);
 	                var isRecord = parsedResult[0];  // get first item in the array which is a true if a new record has been set.
 	                var oldRecord = parsedResult[1]; // get second item in the array whchs is the stored record (not the new).
