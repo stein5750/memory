@@ -1,0 +1,1 @@
+The cards are based on images from the fonts-opensymbol package, and that package uses the LGPLv3 licence.
