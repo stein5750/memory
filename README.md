@@ -5,6 +5,7 @@ A game exploring concepts like
   <li>HTML5</li>
   <li>CSS3</li>
   <li>PHP</li>
-  <li>And a little bit of Ajax, JQuery and Json</li>
+   <li>Ajax</li>
+  <li>Json</li>
 </ul>
 <br />
